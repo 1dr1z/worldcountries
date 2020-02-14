@@ -1,0 +1,175 @@
+.CountryDetailsWrapper {
+  min-height: calc(100vh - 70px);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.Country {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column;
+  color: #fff;
+  width: 50%;
+  margin: 20px 0;
+}
+
+.CountryLight {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column;
+  color: #202e36;
+  width: 50%;
+  margin: 20px 0;
+}
+
+.FlagWrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.Flag {
+  height: 200px;
+  width: 300px;
+}
+
+.firstRow {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.secondRow {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.CountryName {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+}
+
+.TableWrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.secondRow .TableWrapper {
+  width: 100%;
+}
+
+.secondRow .Table {
+  width: 80%;
+}
+
+.secondRow .TableDetails {
+  padding-left: 40px;
+}
+
+.secondRow .ColLabel {
+  padding-left: 40px;
+}
+
+.TableRow {
+  height: 30px;
+}
+
+.ColLabel {
+  font-weight: bold;
+  font-size: 14px;
+  width: 100px;
+}
+.TableDetails {
+  width: 100px;
+}
+
+.TableDetails p {
+  width: 100%;
+}
+
+.TableHeading {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.Map {
+  margin-top: 5px;
+  width: 50%;
+}
+
+@media (max-width: 1200px) {
+  .CountryDetailsWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column;
+  }
+  .Country,
+  .CountryLight {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .firstRow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+
+  .CountryName {
+    margin: 10px 0;
+    padding: 5px 0;
+  }
+
+  .TableWrapper {
+    width: 100%;
+  }
+
+  .Table {
+    width: 80%;
+  }
+
+  .TableDetails {
+    padding-left: 40px;
+  }
+
+  .ColLabel {
+    padding-left: 40px;
+  }
+}

@@ -1,0 +1,38 @@
+.InputFieldDark {
+  background-image: url(../../../Assets/Img/search-dark.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 10px;
+  padding-left: 30px;
+  border: none;
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+  margin: 10px;
+}
+
+.InputFieldLight {
+  background-image: url(../../../Assets/Img/search-white.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 10px;
+  background-color: #202e36;
+  color: #fff;
+  padding-left: 30px;
+  border: none;
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+  margin: 10px;
+}
+
+@media (max-width: 480px) {
+  .InputFieldLight,
+  .InputFieldDark {
+    font-size: 18px;
+    height: 30px;
+    width: 100%;
+  }
+}

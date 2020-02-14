@@ -1,0 +1,70 @@
+.Navbar {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 70px;
+  background-color: #202e36;
+  color: #fff;
+  box-shadow: 2px 2px 2px rgb(45, 64, 75);
+}
+
+.NavbarLight {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 70px;
+  background-color: #f4f4f4;
+  color: #202e36;
+  box-shadow: 2px 2px 2px rgb(189, 189, 189);
+}
+
+.Button {
+  background-color: #fff;
+  color: #202e36;
+  outline: none;
+  padding: 7px 20px 7px 26px;
+  border: none;
+  background-image: url(../../Assets/Img/moon.svg);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-y: center;
+  background-position-x: 7px;
+}
+
+.Button:hover,
+.ButtonLight:hover {
+  cursor: pointer;
+}
+
+.ButtonLight {
+  background-color: #202e36;
+  color: #fff;
+  outline: none;
+  padding: 7px 20px 7px 26px;
+  border: none;
+  background-image: url(../../Assets/Img/moon-white.svg);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-y: center;
+  background-position-x: 7px;
+}
+
+.Link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.LinkLight {
+  text-decoration: none;
+  color: #202e36;
+}

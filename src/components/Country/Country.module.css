@@ -1,0 +1,61 @@
+.CountryContainer {
+  height: 300px;
+  width: 200px;
+  background-color: #202e36;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.CountryContainerDark {
+  height: 300px;
+  width: 200px;
+  background-color: #f4f4f4;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.CountryContainer img,
+.CountryContainerDark img {
+  margin-top: 5px;
+  height: 150px;
+  width: 100%;
+}
+
+.CountryData {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  align-items: flex-start;
+}
+
+.CountryName {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.CountryContainer div {
+  color: #fff;
+  margin: 5px 10px;
+}
+
+.CountryContainerDark div {
+  color: #202e36;
+  margin: 5px 10px;
+}
+
+.Label {
+  font-weight: bold;
+}
+
+@media (max-width: 490px) {
+  .CountryContainer,
+  .CountryContainerDark {
+    width: 85%;
+    margin: 10px auto;
+  }
+}
